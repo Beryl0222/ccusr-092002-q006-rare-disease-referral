@@ -1,9 +1,24 @@
 {
+  "idempotency_key": "clinic-104-20260920-19",
   "referral_id": "ref-20260920-19",
-  "source_facility": "clinic-104",
+  "source_facility_id": "clinic-104",
   "patient_token": "pseudonym-7a91",
+  "auth_id": "auth-2026-0042",
+  "birth_year": 2017,
+  "gender": "F",
+  "residence_region_code": "city-A",
+  "phenotype_codes": ["HP:0001250", "HP:0001943"],
   "suspected_category": "遗传代谢类",
+  "suspected_disease_code": "RD-001",
   "urgency": "priority",
-  "submitted_at": "2026-09-20T11:40:00+08:00",
-  "documents": ["clinical-summary", "laboratory-index"]
+  "origin_lat": 30.0,
+  "origin_lng": 120.0,
+  "documents": [
+    { "doc_type": "clinical-summary", "content_ref": "obj://clinical-summary-19" },
+    { "doc_type": "laboratory-index", "content_ref": "obj://laboratory-index-19" },
+    { "doc_type": "phenotype-record", "content_ref": "obj://phenotype-record-19" }
+  ],
+  "checks": [
+    { "check_code": "LAB-PHE", "check_name": "血苯丙氨酸", "check_date": "2026-09-15", "facility_id": "clinic-104" }
+  ]
 }
