@@ -1,0 +1,9 @@
+{
+  "referral_id": "ref-20260920-19",
+  "source_facility": "clinic-104",
+  "patient_token": "pseudonym-7a91",
+  "suspected_category": "遗传代谢类",
+  "urgency": "priority",
+  "submitted_at": "2026-09-20T11:40:00+08:00",
+  "documents": ["clinical-summary", "laboratory-index"]
+}
